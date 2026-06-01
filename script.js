@@ -96,7 +96,7 @@ const QUESTION_BANK = [
     imageSrc: "images/q12.png",
     imageAlt: "Pregunta 12: modus ponens — si P implica Q y P es verdadero",
     correctIdx: 1,
-    options: ["Diverge", "½", "1", "5"]
+    options: ["Diverge", "Converge y su suma es ½", "Converge y su suma es ½ 1", "Converge y su suma es ½ 5"]
   },
   {
     id: 13,
@@ -124,14 +124,14 @@ const QUESTION_BANK = [
     imageSrc: "images/q16.png",
     imageAlt: "Pregunta 16: derivada de la función seno",
     correctIdx: 1,
-    options: ["Converge a 4", "Converge a 6", "Converge a 2", "Diverge"]
+    options: ["Converge y su suma es 4", "Converge y su suma es  6", "Converge y su suma es 2", "Diverge"]
   },
   {
     id: 17,
     imageSrc: "images/q17.png",
     imageAlt: "Pregunta 17: unidad de medida de la frecuencia",
     correctIdx: 2,
-    options: ["Converge a 3", "Converge a 0", "Diverge", "Converge a 1"]
+    options: ["Converge y su suma es 3", "Converge y su suma es 0", "Diverge", "Converge y su suma es 1"]
   },
   {
     id: 18,
@@ -145,7 +145,7 @@ const QUESTION_BANK = [
     imageSrc: "images/q19.png",
     imageAlt: "Pregunta 19: área de un círculo con radio 5",
     correctIdx: 1,
-    options: ["1", "1/2", "0", "Divrge"]
+    options: ["converge y su suma es 1", "Converge y su suma es 1/2", "Converge y su suma es 0", "Divrge"]
   },
   {
     id: 20,
@@ -234,7 +234,7 @@ function renderStart() {
   screen.innerHTML = `
     <div class="card">
       <span class="badge">⚡ Quiz Interactivo</span>
-      <h1>Quiz Calculo Aplicado Unidad III - Sucesiones y Series Infinitas</h1>
+      <h1>Quiz Cálculo Aplicado Unidad III - Sucesiones y Series Infinitas</h1>
       <p class="subtitle">
         Cada intento presenta 5 preguntas seleccionadas aleatoriamente de un banco de 20.
         Responde con cuidado: las preguntas abarcan sucesiones y series infinitas.
