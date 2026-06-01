@@ -153,9 +153,9 @@ const QUESTION_BANK = [
     imageAlt: "Pregunta 20: la ley F = ma corresponde a",
     correctIdx: 0,
     options: [
-      "e/(e-1)",
-      "e",
-      "1/e",
+      "Converge y su suma es e/(e-1)",
+      "Converge y su suma es e",
+      "Converge y su suma es 1/e",
       "Diverge"
     ]
   }
